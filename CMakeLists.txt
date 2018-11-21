@@ -4,7 +4,7 @@
 # @filename: opencv_tutorial
 # @author: aliben.develop@gmail.com
 # @create_date: 2018-11-21 08:58:41
-# @last_modified_date: NO_LAST_MODIFIED_DATE
+# @last_modified_date: 2018-11-21 09:42:59
 # @description: TODO
 #---****************************************************************---
 
@@ -23,7 +23,7 @@ project(opencv_tutorial)
 
   SET(CMAKE_VERBOSE_MAKEFILE OFF)
   SET(CMAKE_CXX_STANDARD 11)
-  SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Werror -std=c++14 -Wextra -Wno-deprecated-register -Wno-deprecated-declarations -Wno-unused-private-field -Wno-unused-parameter -Qunused-arguments -fcolor-diagnostics -ftemplate-backtrace-limit=0")
+  SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Werror -std=c++14 -Wextra -Wno-deprecated-register -Wno-deprecated-declarations -Wno-unused-private-field -Wno-unused-parameter -Wno-unused-variable -Qunused-arguments -fcolor-diagnostics -ftemplate-backtrace-limit=0")
   #SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Werror -std=c++14 -Wextra -Wno-deprecated-register -Wno-deprecated-declarations -Qunused-arguments -fcolor-diagnostics -ftemplate-backtrace-limit=0")
   # Cross-platform check
   IF("${CMAKE_CXX_COMPILER_ID}" STREQUAL "Clang")
